@@ -1,0 +1,25 @@
+<html>
+<head>
+     <link rel="stylesheet" href="strona3.css">
+    <title>Partnerzy | PayMe</title>
+</head> 
+<body>
+<div class="topbar">
+    <img class="logo" src=logo2.png alt="PayMe" onclick="balls()">
+    <a href="strona1.html">Powrót</a>
+</div>
+<audio id="balls">
+    <source src="balls.mp3" type="audio/ogg">
+</audio>
+<script>
+function balls()
+{
+    document.getElementById("balls").play();
+}
+</script>  
+<script>
+    var audio = document.getElementById("balls");
+    audio.volume = 0.1;    
+</script>
+</body> 
+</html>
