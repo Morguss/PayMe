@@ -5,8 +5,21 @@
 </head> 
 <body>
 <div class="topbar">
-    <img class="logo" src=logo.png alt="PayMe">
+    <img class="logo" src=logo2.png alt="PayMe" onclick="balls()">
     <a href="index.html">Powrót</a>
     </div>
+<audio id="balls">
+    <source src="rickroll.mp3" type="audio/ogg">
+</audio>
+<script>
+function balls()
+{
+    document.getElementById("balls").play();
+}
+</script>  
+<script>
+    var audio = document.getElementById("balls");
+    audio.volume = 0.1;
+    </script>
 </body> 
 </html>

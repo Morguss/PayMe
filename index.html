@@ -5,18 +5,20 @@
 </head> 
 <body> 
 <div class="topbar">
-    <img class="logo" src=logo.png alt="PayMe">
-        <a href=strona2.html class="login">Zaloguj się</a>
-        <a href="strona2.html">Zarejestruj się</a>
+    <img class="logo" src=logo.png alt="PayMe" onclick="balls()">
+        <div class="guziki">
         <a href="strona3.html">Partnerzy Strony</a>
-    <div class="uno">
+        <a href="strona2.html">Zarejestruj się</a>
+        <a href=strona2.html class="login">Zaloguj się</a>
+        </div>
+    <!--<div class="uno">
         <p class="menu">O PayMe</p>
         <div class="lista">
             <ul>   
             <li>PayMe to w 100% bezpieczny sposób na płacenie w inernecie, zero skamu, zero kłamstw</li>
             </ul>
         </div>
-    </div>
+    </div>-->
 </div>
 <section class="pierwszy"></section>
 <section class="druga">
@@ -44,5 +46,18 @@
         <p>Copyright @ 2021 Miłosz Myzia</p>
     </div>
 </section>
+<audio id="balls">
+    <source src="shootingstars.mp3" type="audio/ogg">
+</audio>
+<script>
+function balls()
+{
+    document.getElementById("balls").play();
+}
+</script>  
+<script>
+    var audio = document.getElementById("balls");
+    audio.volume = 0.2;
+    </script>
 </body> 
 </html>

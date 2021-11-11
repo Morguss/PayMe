@@ -8,15 +8,19 @@ body
 }
 .topbar
 {
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
     height: 80px;
     background-color: #333;
-    align-items: center;
+}
+.guziki
+{
+    margin-top: 24px;
 }
 .topbar a 
 {
-    float: right;
     width: 190px;
     color: #f2f2f2;
     padding: 23px;
@@ -28,7 +32,7 @@ body
 {
     background-color: white;
     color: black;
-    border-bottom: 5px solid limegreen;
+    border-bottom: 4px solid limegreen;
 }
 .topbar .login:hover 
 {
@@ -38,7 +42,6 @@ body
 }
 .logo
 {
-    float: left;
     padding: 15px;
     width: 165px;
     height: 50px;
@@ -124,7 +127,6 @@ section
 {
     margin: 0;
     height: 15vh;
-
 }
 .pytanie
 {
@@ -145,10 +147,11 @@ section
 }
 .trzeci
 {
+    display: flex;
+    justify-content: center;
     padding-top: 20px;
     height: 30vh;
     text-align: center;
-    display: block;
 }
 .trzeci h1
 {
@@ -160,18 +163,18 @@ section
 }
 .panel1
 {
-    margin-left: 400px;
-    float: left;
     width: 300px;
+    margin-right:5vw;
 }
 .panel2
 {
-    margin-right: 400px;
-    float: right;
     width: 300px;
+    margin-left:5vw;
 }
 .czwarto
 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     text-decoration: none;
     align-content: center;
