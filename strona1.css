@@ -113,15 +113,96 @@ section
 }
 .pierwszy
 {
-    
+    height: 85vh;
     background-image: url(tlo.png);
     background-color: palegoldenrod;
     background-size: cover;
-    background-position: bottom;
+    border-bottom: 5px solid darkseagreen;
 }
+
 .druga
 {
-    background-color: palegoldenrod;
-    background-image: url(tlo3.png);
-    background-size: cover;
+    margin: 0;
+    height: 15vh;
+
+}
+.pytanie
+{
+    margin: 0;
+    padding-top: 20px;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.pytanie h1
+{
+    margin: 0;
+    font-size: 40px;
+}
+.pytanie p
+{
+    font-size: 20px;
+}
+.trzeci
+{
+    padding-top: 20px;
+    height: 30vh;
+    text-align: center;
+    display: block;
+}
+.trzeci h1
+{
+    font-size: 30px;
+}
+.trzeci p
+{
+    font-size: 20px;
+}
+.panel1
+{
+    margin-left: 400px;
+    float: left;
+    width: 300px;
+}
+.panel2
+{
+    margin-right: 400px;
+    float: right;
+    width: 300px;
+}
+.czwarto
+{
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+    height: 22vh;
+    border: 5px solid wheat;
+    background-color: antiquewhite;
+}
+.bottombar h1
+{
+    font-size: 40px;
+    padding: 5px;
+}
+.bottombar a
+{
+    background-color: #333;
+    width: 190px;
+    color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.bottombar a:hover 
+{
+    background-color: #a8d484;
+    color: black;
+    border: 3px solid limegreen;
+}
+.bottombar p
+{
+    padding-top: 20px;
+    z-index: 1;
 }
