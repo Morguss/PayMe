@@ -14,6 +14,8 @@ body
     height: 80px;
     background-color: #333;
     align-items: center;
+    width: 100%;
+
 }
 .topbar a 
 {
@@ -37,4 +39,18 @@ body
     padding: 15px;
     width: 165px;
     height: 50px;
+}
+h1
+{
+    width: 100%;
+    text-align: center;
+    font-size: 6vh;
+    color:black;
+    text-shadow: -2px 0 white, 0 2px white,
+    2px 0 white, 0 -2px white;
+}
+.bottombar
+{
+    text-align: center;
+    margin-top: 10vh;
 }

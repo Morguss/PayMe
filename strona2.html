@@ -1,14 +1,32 @@
 <html>
-<head>
-     <link rel="stylesheet" href="strona2.css">
-    <title>Rejestracja | PayMe</title>
+<head>     
+    <link rel="stylesheet" href="strona2.css">
+    <title>Logowanie | PayMe</title>
 </head> 
 <body>
 <div class="topbar">
     <img class="logo" src=logo2.png alt="PayMe" onclick="balls()">
     <a href="index.html">Powrót</a>
-    </div>
-<audio id="balls">
+</div>
+<div class="logowanie">
+    <form>
+        <div class="log">
+          <h1>Zaloguj się</h1>
+      
+          <label for="login"><b>Login</b></label><br>
+          <input type="text" placeholder="Wprowadź login" name="login" required><br>
+
+          <label for="psw"><b>Hasło</b></label><br>
+          <input type="password" placeholder="Wprowadź hasło" name="pass" required><br>
+          <br>
+
+          <div class="logbutton">
+            <a href="index.html" type="submit">Zaloguj się</a>
+          </div>
+        </div>
+      </form>
+    
+    <audio id="balls">
     <source src="rickroll.mp3" type="audio/ogg">
 </audio>
 <script>
@@ -19,7 +37,8 @@ function balls()
 </script>  
 <script>
     var audio = document.getElementById("balls");
-    audio.volume = 0.1;
-    </script>
+    audio.volume = 0.1;    
+</script>
+</div>
 </body> 
 </html>

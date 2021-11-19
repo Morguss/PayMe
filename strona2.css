@@ -1,6 +1,8 @@
 html
 {
     background-color: lightgoldenrodyellow;
+    background-image: url(tlo.png);
+    background-size: cover;
 }
 body
 {
@@ -35,4 +37,79 @@ body
     padding: 15px;
     width: 165px;
     height: 50px;
+}
+.rejestracja
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    align-content: center;
+}
+.logowanie
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 600px;
+    border-radius: 20px;
+    border: 3px solid limegreen;
+    text-align: center;
+    background: #333;
+    color: white;
+    font-size: 50px;
+}
+.sign
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 1200px;
+    border-radius: 20px;
+    border: 3px solid limegreen;
+    text-align: center;
+    background: #333;
+    color: white;
+    font-size: 40px;
+}
+.logbutton a
+{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid white;
+    font-size: 20px;
+}
+.logbutton a:hover
+{
+    border: 3px solid limegreen;
+    background-color: #a8d484;
+    color: black;
+}
+.signbutton a
+{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 3px solid  white;
+    font-size: 20px;
+}
+.signbutton a:hover
+{
+    border: 3px solid limegreen;
+    background-color: #a8d484;
+    color: black;
 }

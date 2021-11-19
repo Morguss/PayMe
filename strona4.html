@@ -1,0 +1,49 @@
+<html>
+<head>     
+    <link rel="stylesheet" href="strona2.css">
+    <title>Rejestracja | PayMe</title>
+</head> 
+<body>
+<div class="topbar">
+    <img class="logo" src=logo2.png alt="PayMe" onclick="balls()">
+    <a href="index.html">Powrót</a>
+</div>
+<div class="rejestracja">
+    <form>
+        <div class="sign">
+            <h1>Zarejestruj się</h1>
+            <p>Proszę wypełnij tej formularz by się zarejestrować</p>
+            
+            <label for="email"><b>E-mail</b></label><br>
+            <input type="text" placeholder="Wprowadź Email" name="email" required><br>
+      
+            <label for="login"><b>Login</b></label><br>
+            <input type="text" placeholder="Wprowadź login" name="login" required><br>
+
+            <label for="psw"><b>Hasło</b></label><br>
+            <input type="password" placeholder="Wprowadź hasło" name="pass" required><br>
+          
+            <p>Tworząc to konto akceptujesz się na naszą <a href="#" style="color:dodgerblue">Politykę prywatności</a>.</p>
+      
+            <div class="signbutton">
+            <a href="index.html" type="submit">Zarejestruj się</a>
+        </div>
+        </div>
+    </form>
+
+    <audio id="balls">
+    <source src="rickroll.mp3" type="audio/ogg">
+</audio>
+<script>
+function balls()
+{
+    document.getElementById("balls").play();
+}
+</script>  
+<script>
+    var audio = document.getElementById("balls");
+    audio.volume = 0.1;    
+</script>
+</div>
+</body> 
+</html>
